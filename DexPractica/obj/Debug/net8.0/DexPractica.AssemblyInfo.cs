@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DexPractica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5040c2ea0ea7a902a3f1f935bc13c707d294366")]
 [assembly: System.Reflection.AssemblyProductAttribute("DexPractica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DexPractica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
