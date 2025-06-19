@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.ML" Version="5.0.0-preview.1.25127.4" />
+      <PackageReference Include="Microsoft.ML.DataView" Version="5.0.0-preview.1.25127.4" />
+    </ItemGroup>
+
 </Project>
