@@ -56,6 +56,14 @@
             "Microsoft.ML.DataView": {
               "target": "Package",
               "version": "[5.0.0-preview.1.25127.4, )"
+            },
+            "Microsoft.ML.FastTree": {
+              "target": "Package",
+              "version": "[5.0.0-preview.1.25127.4, )"
+            },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[5.0.0-preview.1.25127.4, )"
             }
           },
           "imports": [

@@ -4,7 +4,6 @@ namespace DexPractica.AnimeData;
 
 public class AnimeData
 {
-    [LoadColumn(0)] public float AnimeId;
     [LoadColumn(1)] public string Name;
     [LoadColumn(2)] public string Genre;
     [LoadColumn(3)] public string Type;

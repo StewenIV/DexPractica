@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "LightGBM/3.3.5": {
+        "type": "package",
+        "build": {
+          "build/LightGBM.props": {},
+          "build/LightGBM.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/lib_lightgbm.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/lib_lightgbm.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/lib_lightgbm.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/lightgbm.exe": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
       "Microsoft.ML/5.0.0-preview.1.25127.4": {
         "type": "package",
         "dependencies": {
@@ -183,6 +208,69 @@
           }
         }
       },
+      "Microsoft.ML.FastTree/5.0.0-preview.1.25127.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML": "5.0.0-preview.1.25127.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/Microsoft.ML.FastTree.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libFastTreeNative.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libFastTreeNative.so.dbg": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libFastTreeNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libFastTreeNative.dylib.dwarf": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/FastTreeNative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/FastTreeNative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.ML.LightGbm/5.0.0-preview.1.25127.4": {
+        "type": "package",
+        "dependencies": {
+          "LightGBM": "3.3.5",
+          "Microsoft.ML": "5.0.0-preview.1.25127.4",
+          "Microsoft.ML.FastTree": "5.0.0-preview.1.25127.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -281,6 +369,23 @@
     }
   },
   "libraries": {
+    "LightGBM/3.3.5": {
+      "sha512": "6LwKO13R9q8zZHbYNeHhayUj3/sN410L6B9QZfV/tyzuoaddur1Uy0yV0gK4FfLl3FVC0LxnfiCOrHva0xX3yQ==",
+      "type": "package",
+      "path": "lightgbm/3.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LightGBM.props",
+        "build/LightGBM.targets",
+        "lightgbm.3.3.5.nupkg.sha512",
+        "lightgbm.nuspec",
+        "runtimes/linux-x64/native/lib_lightgbm.so",
+        "runtimes/osx-x64/native/lib_lightgbm.dylib",
+        "runtimes/win-x64/native/lib_lightgbm.dll",
+        "runtimes/win-x64/native/lightgbm.exe"
+      ]
+    },
     "Microsoft.ML/5.0.0-preview.1.25127.4": {
       "sha512": "SKrqHCgz+dEcXqn+H8L1IjwJ8kXZi0jeo8JV63MldH+JgQgIcLCRZIG6Ak3AncTAyVQZzMpI4DfACsoWFGBf+g==",
       "type": "package",
@@ -369,6 +474,47 @@
         "lib/netstandard2.0/Microsoft.ML.DataView.xml",
         "microsoft.ml.dataview.5.0.0-preview.1.25127.4.nupkg.sha512",
         "microsoft.ml.dataview.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.ML.FastTree/5.0.0-preview.1.25127.4": {
+      "sha512": "QvhZEOnULjQ/pcKKo+XIvYRkK3vu5LPVe+0WzCZt5WW5ve8+aKU0Bhvb8zDiA9Q0LV6KCmW4viXy03cpmfpXuQ==",
+      "type": "package",
+      "path": "microsoft.ml.fasttree/5.0.0-preview.1.25127.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/Microsoft.ML.FastTree.props",
+        "lib/netstandard2.0/Microsoft.ML.FastTree.dll",
+        "lib/netstandard2.0/Microsoft.ML.FastTree.xml",
+        "microsoft.ml.fasttree.5.0.0-preview.1.25127.4.nupkg.sha512",
+        "microsoft.ml.fasttree.nuspec",
+        "mlnetlogo.png",
+        "runtimes/linux-x64/native/libFastTreeNative.so",
+        "runtimes/linux-x64/native/libFastTreeNative.so.dbg",
+        "runtimes/osx-x64/native/libFastTreeNative.dylib",
+        "runtimes/osx-x64/native/libFastTreeNative.dylib.dwarf",
+        "runtimes/win-x64/native/FastTreeNative.dll",
+        "runtimes/win-x86/native/FastTreeNative.dll"
+      ]
+    },
+    "Microsoft.ML.LightGbm/5.0.0-preview.1.25127.4": {
+      "sha512": "cjHES6TaavXR2xMT+azuqtkoFuzM4fLHohlv2RBa1vo3GYQ1zS9yymq3H556ZdnH0ATFNriffiHLpp6L3eRqlA==",
+      "type": "package",
+      "path": "microsoft.ml.lightgbm/5.0.0-preview.1.25127.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.ML.LightGbm.dll",
+        "lib/netstandard2.0/Microsoft.ML.LightGbm.xml",
+        "microsoft.ml.lightgbm.5.0.0-preview.1.25127.4.nupkg.sha512",
+        "microsoft.ml.lightgbm.nuspec",
         "mlnetlogo.png"
       ]
     },
@@ -603,7 +749,9 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.ML >= 5.0.0-preview.1.25127.4",
-      "Microsoft.ML.DataView >= 5.0.0-preview.1.25127.4"
+      "Microsoft.ML.DataView >= 5.0.0-preview.1.25127.4",
+      "Microsoft.ML.FastTree >= 5.0.0-preview.1.25127.4",
+      "Microsoft.ML.LightGbm >= 5.0.0-preview.1.25127.4"
     ]
   },
   "packageFolders": {
@@ -660,6 +808,14 @@
             "version": "[5.0.0-preview.1.25127.4, )"
           },
           "Microsoft.ML.DataView": {
+            "target": "Package",
+            "version": "[5.0.0-preview.1.25127.4, )"
+          },
+          "Microsoft.ML.FastTree": {
+            "target": "Package",
+            "version": "[5.0.0-preview.1.25127.4, )"
+          },
+          "Microsoft.ML.LightGbm": {
             "target": "Package",
             "version": "[5.0.0-preview.1.25127.4, )"
           }

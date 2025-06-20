@@ -39,3 +39,15 @@ C:\Users\077764842\RiderProjects\DexPractica\DexPractica\obj\Debug\net8.0\refint
 C:\Users\077764842\RiderProjects\DexPractica\DexPractica\obj\Debug\net8.0\DexPractica.pdb
 C:\Users\077764842\RiderProjects\DexPractica\DexPractica\obj\Debug\net8.0\DexPractica.genruntimeconfig.cache
 C:\Users\077764842\RiderProjects\DexPractica\DexPractica\obj\Debug\net8.0\ref\DexPractica.dll
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\Microsoft.ML.FastTree.dll
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\linux-x64\native\libFastTreeNative.so
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\linux-x64\native\libFastTreeNative.so.dbg
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\osx-x64\native\libFastTreeNative.dylib.dwarf
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\win-x64\native\FastTreeNative.dll
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\win-x86\native\FastTreeNative.dll
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\Microsoft.ML.LightGbm.dll
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\linux-x64\native\lib_lightgbm.so
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\osx-x64\native\lib_lightgbm.dylib
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\win-x64\native\lib_lightgbm.dll
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\win-x64\native\lightgbm.exe
