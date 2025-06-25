@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "DexPractica/1.0.0": {
         "dependencies": {
+          "CsvHelper": "33.1.0",
           "Microsoft.ML": "5.0.0-preview.1.25127.4",
           "Microsoft.ML.DataView": "5.0.0-preview.1.25127.4",
           "Microsoft.ML.FastTree": "5.0.0-preview.1.25127.4",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "DexPractica.dll": {}
+        }
+      },
+      "CsvHelper/33.1.0": {
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "assemblyVersion": "33.0.0.0",
+            "fileVersion": "33.1.0.26"
+          }
         }
       },
       "LightGBM/3.3.5": {
@@ -260,6 +269,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CsvHelper/33.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg==",
+      "path": "csvhelper/33.1.0",
+      "hashPath": "csvhelper.33.1.0.nupkg.sha512"
     },
     "LightGBM/3.3.5": {
       "type": "package",

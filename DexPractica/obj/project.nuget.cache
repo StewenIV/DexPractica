@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nZp+ib2Yn74=",
+  "dgSpecHash": "kR/oOffiZyM=",
   "success": true,
   "projectFilePath": "C:\\Users\\077764842\\RiderProjects\\DexPractica\\DexPractica\\DexPractica.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\077764842\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
     "C:\\Users\\077764842\\.nuget\\packages\\lightgbm\\3.3.5\\lightgbm.3.3.5.nupkg.sha512",
     "C:\\Users\\077764842\\.nuget\\packages\\microsoft.ml\\5.0.0-preview.1.25127.4\\microsoft.ml.5.0.0-preview.1.25127.4.nupkg.sha512",
     "C:\\Users\\077764842\\.nuget\\packages\\microsoft.ml.cpumath\\5.0.0-preview.1.25127.4\\microsoft.ml.cpumath.5.0.0-preview.1.25127.4.nupkg.sha512",

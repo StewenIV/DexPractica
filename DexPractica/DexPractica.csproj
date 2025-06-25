@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="CsvHelper" Version="33.1.0" />
       <PackageReference Include="Microsoft.ML" Version="5.0.0-preview.1.25127.4" />
       <PackageReference Include="Microsoft.ML.DataView" Version="5.0.0-preview.1.25127.4" />
       <PackageReference Include="Microsoft.ML.FastTree" Version="5.0.0-preview.1.25127.4" />

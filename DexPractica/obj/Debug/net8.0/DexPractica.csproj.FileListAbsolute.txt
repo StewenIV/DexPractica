@@ -51,3 +51,4 @@ C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtim
 C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\osx-x64\native\lib_lightgbm.dylib
 C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\win-x64\native\lib_lightgbm.dll
 C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\runtimes\win-x64\native\lightgbm.exe
+C:\Users\077764842\RiderProjects\DexPractica\DexPractica\bin\Debug\net8.0\CsvHelper.dll
